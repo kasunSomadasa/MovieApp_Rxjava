@@ -12,7 +12,8 @@ android {
         targetSdk 32
         versionCode 1
         versionName "1.0"
-
+        buildConfigField("String","API_KEY",MOVIE_KEY)
+        buildConfigField("String","BASE_URL",MOVIE_BASE_URL)
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
