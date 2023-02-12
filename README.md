@@ -1,7 +1,6 @@
 # The Movie App - Mvvm Architecture - Rxjava
 
-The Movie App - App consuming a [TMDB API](https://developers.themoviedb.org/3) to display movie details. The app has been built with mvvm architecture principles usign java language.
-This app shows the usage of the rxjava, jetpack navigation architecture and this codebase also includes unit testing.
+The Movie App - App consuming a [TMDB API](https://developers.themoviedb.org/3) to display movie details. The app has been built with mvvm architecture principles usign java language. This app shows the usage of the rxjava, jetpack navigation architecture.
 
 ## App packages:
 - data: It contains all the data accessing components.
@@ -45,5 +44,3 @@ It extends the observer pattern to support sequences of data/events and adds ope
 - [Retrofit](https://github.com/square/retrofit) - Used for REST api communication.
 - [OkHttp](https://square.github.io/okhttp/) - HTTP client that's efficient by default: HTTP/2 support allows all requests to the same host to share a socket
 - [Glide](https://bumptech.github.io/glide/) - Glide is a fast and efficient image loading library for Android
-- [Junit](https://developer.android.com/training/testing/local-tests) - Used as a unit testing framework
-- [Truth](https://truth.dev/) - Fluent assertions for Java and Android
